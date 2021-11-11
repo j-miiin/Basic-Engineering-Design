@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Blog Page</title>
+    <style>
+        header {
+            background-color: #FAE9DD;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            width: 100%;
+            height: 80px;
+        }
+
+        .contents {
+            display: flex;
+        }
+
+        .contents nav {
+            background-color: #F9D1D1;
+            width: 30%;
+        }
+
+        .links {
+            margin: 10px;
+        }
+
+        .links h2 {
+            text-align: center;
+        }
+
+        a:link{color: #7256A6;}
+        a:hover{color: #C5A6C7;}
+
+        .profile {
+            border: 3px solid salmon;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .profile img {
+            margin: 10px;
+        }
+
+        .contents section {
+            background-color: #FCE8ED;
+            padding: 10px;
+        }
+
+        .semantic {
+            border-bottom: 2px solid salmon;
+            margin: 20px;
+        } 
+
+        .divAndspan {
+            margin: 20px;
+        }
+
+        #divAndspan_content {
+            font-size: 25px;
+        }
+
+        footer {
+            background-color: #8E6E70;
+            text-align: center;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>My Blog Page</header>
+    <div class="contents">
+        <nav>
+            <div class="links">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li><a href="https://www.naver.com">Naver</a></li>
+                    <li><a href="https://smsso.smu.ac.kr/svc/tk/Auth.do?ac=Y&ifa=N&id=portal&">SMU Ecampus</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <img src="./hahaha.jpg" alt="고양이" width="120px" height="100px">
+                <p>김정민</p>
+            </div>
+        </nav>
+        <section>
+            <div class="semantic">
+                <h2>Semantic Tags</h2>
+                <p>시멘틱 요소(Semantic elements)들은 브라우저에게 요소의 의미나 목적을 명확하게 알려주는 요소이다.</p>
+            </div>
+            <div class="divAndspan">
+                <div id="divAndspan_content">
+                    <strong>div</strong>와 <strong>span</strong>
+                </div>
+                <p>div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. span 요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.</p>
+            </div>
+        </section>
+    </div>
+    <footer>Copyright (c) 2021 Jungmin</footer>
+</body>
+</html>
